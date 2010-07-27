@@ -1,0 +1,7 @@
+This is just a placeholder directory so the /twiki/index.html
+redirect will fire, since we don't actually want the /twiki/ redirect
+to exist.
+
+Given a real /twiki directory in the web namespace, Apache will
+synthesize the existence of /twiki/index.html and redirect, but
+not otherwise.
